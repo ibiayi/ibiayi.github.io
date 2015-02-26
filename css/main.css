@@ -2,15 +2,8 @@
 GENERAL
 ****************************/
 
-html,
-body {
-  height: 100%;
-  position: relative;
-}
-
 body {
   font-family: Helvetica, sans-serif;
-  background-color: #fff;
   color: #999;
 }
 
@@ -47,6 +40,7 @@ HEADING
 .main-header {
   border-bottom: 3px solid #999;
   padding-top: 20px;
+  text-align: center;
 }
 
 .main-nav {
@@ -71,16 +65,10 @@ footer {
   clear: both;
 }
 
-footer p {
-  padding: 0;
-  margin: 3px 0 0;
-}
-
 .social-icon {
   width: 20px;
   height: 20px;
   margin: 0 5px;
-  /*margin-top: -10px;*/
 }
 
 /****************************
@@ -98,10 +86,10 @@ PAGE: HOMEPAGE
 ****************************/
 
 #homepage {
+  height: 100%;
   background-image: url('../img/background.png');
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 }
 
 #homepage .main-header {
@@ -110,7 +98,7 @@ PAGE: HOMEPAGE
 
 #intro {
   border: 1px solid #fff;
-  padding: 10px;
+  padding: 15px;
   background-color: rgba(189, 191, 188, 0.45);
   color: #fff;
   max-width: 500px;
@@ -124,10 +112,6 @@ PAGE: HOMEPAGE
 /****************************
 PAGE: WRITING
 ****************************/
-
-#wrapper {
-
-}
 
 #gallery {
   margin: 0;
