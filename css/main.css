@@ -97,7 +97,7 @@ PAGE: HOMEPAGE
 }
 
 #homepage footer {
-  text-align: left;
+  display: none;
 }
 
 /*#intro {
