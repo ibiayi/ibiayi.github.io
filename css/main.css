@@ -17,7 +17,7 @@ a:visited {
 }
 
 a:hover {
-  color: #FFF; /*make it faded*/
+  color: #CD554C; /*make it faded*/
 }
 
 img {
@@ -97,11 +97,11 @@ PAGE: HOMEPAGE
 }
 
 #intro {
-  border: 1px solid #fff;
-  padding: 15px;
-  background-color: rgba(189, 191, 188, 0.45);
+  border: 2px solid #fff;
+  padding: 25px;
+  background-color: rgba(189, 191, 188, 0.35);
   color: #fff;
-  max-width: 500px;
+  max-width: 450px;
   margin: 5% auto 15%;
 } 
 
@@ -114,22 +114,28 @@ PAGE: WRITING
 ****************************/
 
 #gallery {
-  margin: 0;
+  width: 90%;
   padding: 0;
   list-style: none;
+  margin: 0 auto 0;
 }
 
 #gallery li {
+  display: inline-block;
+  vertical-align: top;
   float: left;
-  width: 45%;
+  width: 40%;
   margin: 2.5%;
   background-color: #f5f5f5;
   color: #bdc3c7;
 }
 
+#gallery li:nth-child(2){
+  float: none;
+}
+
 #gallery img {
-/*  max-height: 334px;
-  max-width: 1239px;*/
+  width: 100%;
 }
 
 #gallery li a p {
@@ -161,7 +167,7 @@ PAGE: CONTACT
   border: 1px solid #999;
   padding: 10px;
   color: #999;
-  max-width: 500px;
+  max-width: 450px;
   margin: 5% auto 15%;
 } 
 
