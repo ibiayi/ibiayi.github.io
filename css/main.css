@@ -96,7 +96,11 @@ PAGE: HOMEPAGE
   border: none;
 }
 
-#intro {
+#homepage footer {
+  text-align: left;
+}
+
+/*#intro {
   border: 2px solid #fff;
   padding: 25px;
   background-color: rgba(189, 191, 188, 0.35);
@@ -107,7 +111,7 @@ PAGE: HOMEPAGE
 
 #intro p {
   line-height: 1.5;
-}
+}*/
 
 /****************************
 PAGE: WRITING
@@ -146,32 +150,24 @@ PAGE: WRITING
 }
 
 
+
 /****************************
 PAGE: ABOUT
 ****************************/
 
-.profile-photo {
-  display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 100%;
-}
-
-
-
-/****************************
-PAGE: CONTACT
-****************************/
-
-#contact {
-  border: 1px solid #999;
-  padding: 10px;
+#about {
+  padding: 20px;
   color: #999;
   max-width: 450px;
   margin: 5% auto 15%;
 } 
 
-#contact p {
+#about p {
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
   line-height: 1.5;
 }
 
