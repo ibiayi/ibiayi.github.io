@@ -17,7 +17,7 @@ a:visited {
 }
 
 a:hover {
-  color: #CD554C; /*make it faded*/
+  color: #25356F;
 }
 
 img {
@@ -37,21 +37,11 @@ h3 {
 /****************************
 HEADING
 ****************************/
-.main-header {
-  border-bottom: 3px solid #999;
-  padding-top: 20px;
-  text-align: center;
-}
 
-.main-nav {
-  padding-left: 0;
+.main-logo {
+  font-family: 'Cardo', Georgia, serif;
+  letter-spacing: 1.5px;
 }
-
-.main-nav li {
-  list-style: none;
-  margin-top: 10px;
-}
-
 
 
 /****************************
@@ -90,10 +80,6 @@ PAGE: HOMEPAGE
   background-image: url('../img/background.png');
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-#homepage .main-header {
-  border: none;
 }
 
 #homepage footer {
@@ -156,19 +142,26 @@ PAGE: ABOUT
 ****************************/
 
 #about {
+  display: block;
   padding: 20px;
   color: #999;
   max-width: 450px;
-  margin: 5% auto 15%;
+  margin: 25px auto 15%;
 } 
 
 #about p {
   line-height: 1.5;
 }
 
-li {
+#about ul {
+  padding-left: 0px;
+  text-align: center;
+}
+
+#about li {
   list-style: none;
   line-height: 1.5;
+  display: block;
 }
 
 /*.contact-info {

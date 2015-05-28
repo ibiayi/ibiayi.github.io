@@ -1,6 +1,14 @@
 /*Smartphones*/
 @media screen and (min-width: 321px) {
 
+.main-logo, 
+.main-nav {
+	display: block;
+	text-align: center;
+}
+
+.main-nav {
+	padding-left: 0px;
 
 }
 
@@ -10,24 +18,12 @@
 /****************************
 HEADER
 ****************************/
-.main-logo,
-.main-nav li {
-  display: inline-block;
-}
-
-.main-logo {
-  float: left;
-  margin-bottom: 16px;
-  margin-top: 16px;
-}
 
 .main-nav li {
-  float: right;
-  margin-right: 40px;
-  margin-top: 17px;
+	display: inline-block;
+	margin-left: 20px;
 }
 
-}
 
 /*Desktop*/
 @media screen and (min-width: 1024px) {
