@@ -71,11 +71,11 @@ INTRO
 
 #about-container {
   display: block;
-  margin: 10px auto 10px;
-  padding-top: 90px;
+  margin: 5% auto 5%;
+  padding-top: 5%;
   width: 80%;
   color: #fff;
-  font-size: 24px;
+  font-size: 1.5em;
   letter-spacing: .08em;
   line-height: 1.5em;
 }
@@ -84,7 +84,7 @@ INTRO
   display: block;
   text-align: center;
   margin-bottom: 0px;
-  padding-top: 80px;
+  padding-top: 5%;
   padding-bottom: 30px;
   color: #fff;
 }
