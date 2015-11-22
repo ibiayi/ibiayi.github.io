@@ -1,41 +1,27 @@
 /*Smartphones*/
 @media screen and (min-width: 321px) {
 
-.main-logo, 
-.main-nav {
-	display: block;
-	text-align: center;
+
+.item{
+  width: 100%;
 }
 
-.main-nav {
-	padding-left: 0px;
 
-}
-
-/*iPad and Desktop*/
+/*iPad*/
 @media screen and (min-width: 768px) {
 
-/****************************
-HEADER
-****************************/
 
-.main-nav li {
-	display: inline-block;
-	margin-left: 20px;
+.item{
+  width: 30%;
 }
+
+
 
 
 /*Desktop*/
 @media screen and (min-width: 1024px) {
 
-/****************************
-PAGE: WRITING
-****************************/
 
-#gallery li {
-  max-width: 500px;
-}
-
-
-
+.item{
+  width: 30%;
 }

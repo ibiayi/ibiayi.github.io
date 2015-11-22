@@ -4,37 +4,98 @@
     <meta charset="utf-8">
     <title>Ibiayi Briggs</title>
     <link rel="shortcut icon" href="http://38.media.tumblr.com/avatar_ff10b3f10d45_128.png">
-    <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=EB+Garamond|Questrial' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="p:domain_verify" content="ea9292a57d9624586c71d6a61d24c2b3"/>
   </head>
   <body>
-    <header class="main-header group">
-      <h1 class="main-logo"><a href="index.html">Ibiayi Briggs</a></h1>
-      <ul class="main-nav group">
-          <li><a href="writing.html">Writing</a></li>
-          <li><a href="http://heart-of-the-city.tumblr.com/" target="blank">Heart of the City</a></li>
-          <li><a href="http://ibiayi.tumblr.com" target="blank">Inspiration</a></li>
-          <li><a href="about.html">About</a></li>
-      </ul>
+    <header>
+      <p>Ibiayi Briggs</p>
     </header>
+    <section id="about">
+      <div id="about-container">
+        <div id="intro">
+          <p> Hi. I'm a Coordinator at <a href="https://www.ideo.com/" target="_blank">IDEO</a> and formerly an Art Fair Manager at <a href="https://www.artsy.net/" target="_blank">Artsy</a>. I'm curious about a lot of things including but not limited to modern and contemporary art, architecture, design, photography, creative coding, dancing, lore, Twitter, Instagram, puppies, memes, music, hip hop, Kanye West, Beyonce, Rihanna, Kendrick, space, Afrofuturism, memories, history, Nigerians, Nigeria, New York City, Brooklyn, cities, the Catskills, and permutations of them all.
+          </p>
+          <p class="social-media">
+              <a href="http://twitter.com/ibiayi" target="_blank">Twitter</a> | 
+              <a href="http://instagram.com/ibiayi" target="_blank">Instagram</a> | 
+              <a href="http://heart-of-the-city.tumblr.com/" target="_blank">Tumblr</a></li> | 
+              <a href="http://github.com/ibiayi" target="_blank">Github</a>
+          </p>
+          <p class="arrow">&or; &or;</p>
+        <div>
+      </div>
+    </section>
+    <section id="work">
+        <h1>WRITING</h1>
+        <div id="work-container">
+          <div class="item">
+            <a href="https://www.artsy.net/post/ibiayi-masquerades-and-homecomings" target="_blank">
+              <img src="img/masquerades.jpg" alt="">
+              <p>Masquerades and Homecomings | Artsy </p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://www.artsy.net/post/ibiayi-chatting-with-ifeanyi-oganwu" target="_blank">
+              <img src="img/ifeanyi-oganwu.jpg" alt="">
+              <p>Interview: Ifeanyi Oganwu | Artsy</p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="http://www.culturedmag.com/cultured-diary-zona-maco/" target="_blank">
+              <img src="img/zona-maco.png" alt="">
+              <p>A Mexico City Diary | Cultured Magazine</p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://www.artsy.net/post/ibiayi-the-city-dark" target="_blank">
+              <img src="img/city-dark-theirry-cohen.jpg" alt="">
+              <p>The City Dark | Artsy</p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://www.artsy.net/post/ibiayi-seafarers" target="_blank">
+              <img src="img/seafarers-sean-landers.jpg" alt="">
+              <p>Seafarers | Artsy</p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://www.artsy.net/post/ibiayi-seeing-sounds-kandinsky-plus-schoenberg" target="_blank">
+              <img src="img/seeing-sounds-kandinsky.jpg" alt="">
+              <p>Seeing Sounnds: Kandinsky + Schoenberg | Artsy</p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://www.artsy.net/post/editorial-why-istanbul-is-one-of-the-art" target="_blank">
+              <img src="img/istanbul-fabio-giampietro.jpg" alt="">
+              <p>Istanbul: Art City of the Future | Artsy</p>
+            </a>
+          </div>
+      </section>
     <footer>
-      <p><!-- <a href="http://twitter.com/ibiayi"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a> -->
-      </a> &copy; 2015 Ibiayi Briggs.</p>
+      <p>
+        <a href="http://twitter.com/ibiayi" target="_blank">Twitter</a> | 
+        <a href="http://instagram.com/ibiayi" target="_blank">Instagram</a> | 
+        <a href="http://heart-of-the-city.tumblr.com" target="_blank">Tumblr</a> | 
+        <a href="http://github.com/ibiayi" target="_blank">Github</a>
+      </p>
+      <p class="copyright"> &copy;2015 Ibiayi Briggs.</p>
     </footer>
-
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/packery/1.4.3/packery.pkgd.js"></script>
+  <script src="js/layout.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-62607406-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 </html>

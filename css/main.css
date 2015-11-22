@@ -1,23 +1,26 @@
 /****************************
 GENERAL
 ****************************/
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 body {
-  font-family: Helvetica, sans-serif;
-  color: #999;
+  font-family: 'EB Garamond', serif;
+  color: #fff;
+  margin: 0;
+  letter-spacing: .08em;
 }
 
 a {
-  color: #999;
+  color: #fff;
   text-decoration: none;
 }
 
 a:visited {
-  color: #999;
-}
-
-a:hover {
-  color: #25356F;
+  color: #fff;
 }
 
 img {
@@ -38,176 +41,154 @@ h3 {
 HEADING
 ****************************/
 
-.main-logo {
-  font-family: 'Cardo', Georgia, serif;
-  letter-spacing: 1.5px;
+header{
+  background-color: #2B31E3;
+  font-family: 'Questrial', sans-serif;
+  font-size: 4em;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  margin: 0px;
 }
 
+header p{
+  padding-top: 30px;
+  margin: 0px;
+}
+
+
+
+/****************************
+INTRO
+****************************/
+#about {
+  width: 100%;
+  height: 600px;
+  background-color: #2B31E3;
+  overflow: hidden;
+  margin-top: 0px;
+} 
+
+#about-container {
+  display: block;
+  margin: 10px auto 10px;
+  padding-top: 90px;
+  width: 80%;
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: .08em;
+  line-height: 1.5em;
+}
+
+.social-media{
+  display: block;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+#about-container a:hover, .social-media a:hover{
+  color: #F2DA2C;
+}
+
+#about-container a, .social-media a{
+  border-bottom: 3px solid #F2DA2C;
+  font-family: 'Questrial', sans-serif;
+}
+
+.arrow{
+  display: block;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/****************************
+WORK
+****************************/
+h1 {
+  display: block;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  letter-spacing: .3em;
+  padding-bottom: 20px;
+}
+
+#work{
+  margin: 0;
+  padding: 30px 0 0 0;
+  width: 100%;
+  background-color: #FF614D;
+  padding-bottom: 70px;
+}
+
+#work-container a:hover{
+  border-bottom: 3px solid #F2DA2C;
+}
+
+/* ---- grid ---- */
+
+#work-container{
+  width: 90%;
+  display: block;
+  margin: 0px auto;
+  background-color: #FF614D;
+}
+
+#work-container div {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.item{
+  width: 30%;
+}
+
+.item-w2{
+  width: 40%;
+}
+
+.item {
+  background: #FF614D;
+  border: 2px solid #fff;
+  padding: 10px;
+  vertical-align: top;
+  margin: 5px; 
+}
 
 /****************************
 FOOTER
 ****************************/
 
 footer {
-  font-size: 0.75em;
-  text-align: center;
-  color: #ccc;
-  clear: both;
+  font-family: 'Questrial', sans-serif;
+  display: block;
+  text-align: right;
+  background-color: #F2DA2C;
+  color: #999; 
+  padding: 10px 5px;
 }
 
-.social-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;
-}
-
-/****************************
-FLOAT CLEAR FIX
-****************************/
-
-.group:after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-
-/****************************
-PAGE: HOMEPAGE
-****************************/
-
-#homepage {
-  height: 100%;
-  background-image: url('../img/background.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#homepage footer {
-  display: none;
-}
-
-/*#intro {
-  border: 2px solid #fff;
-  padding: 25px;
-  background-color: rgba(189, 191, 188, 0.35);
+footer p{
+  margin: 0px;
+  padding-top: 5px;
   color: #fff;
-  max-width: 450px;
-  margin: 5% auto 15%;
-} 
-
-#intro p {
-  line-height: 1.5;
-}*/
-
-/****************************
-PAGE: WRITING
-****************************/
-
-#gallery {
-  width: 90%;
-  padding: 0;
-  list-style: none;
-  margin: 0 auto 0;
 }
 
-#gallery li {
-  display: inline-block;
-  vertical-align: top;
-  float: left;
-  width: 40%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
-}
-
-#gallery li:nth-child(2){
-  float: none;
-}
-
-#gallery img {
-  width: 100%;
-}
-
-#gallery li a p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7;
-}
-
-
-
-/****************************
-PAGE: ABOUT
-****************************/
-
-#about {
-  display: block;
-  padding: 20px;
+footer p a:hover {
   color: #999;
-  max-width: 450px;
-  margin: 25px auto 15%;
-} 
-
-#about p {
-  line-height: 1.5;
 }
 
-#about ul {
-  padding-left: 0px;
-  text-align: center;
+footer a:visited {
+  color: #fff;
 }
 
-#about li {
-  list-style: none;
-  line-height: 1.5;
-  display: block;
+.copyright{
+  font-size: .75em;
+  color: #999;
 }
-
-/*.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-}
-
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
-}
-
-.contact-info li.phone a {
-  background-image: url('../img/phone.png');
-}
-
-.contact-info li.mail a {
-  background-image: url('../img/mail.png');
-}*/
-
-.contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
