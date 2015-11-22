@@ -1,4 +1,4 @@
-var $container = $('work-container');
+var $container = $('#work-container');
 // init
 $container.packery({
   itemSelector: '.item',
