@@ -12,7 +12,12 @@
 
 }
 
-/*iPad and Desktop*/
+.item{
+  width: 100%;
+}
+
+
+/*iPad*/
 @media screen and (min-width: 768px) {
 
 /****************************
@@ -24,6 +29,9 @@ HEADER
 	margin-left: 20px;
 }
 
+.item{
+  width: 30%;
+}
 
 /*Desktop*/
 @media screen and (min-width: 1024px) {
@@ -36,6 +44,6 @@ PAGE: WRITING
   max-width: 500px;
 }
 
-
-
+.item{
+  width: 30%;
 }
