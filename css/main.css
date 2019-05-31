@@ -66,9 +66,10 @@ INTRO
   height: 20%;
   background-color: #fff;
   overflow: hidden;
+  text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
-} 
+}
 
 #about-container {
   display: block;
@@ -159,7 +160,7 @@ h1 {
   border: 2px solid #000;
   padding: 10px;
   vertical-align: top;
-  margin: 5px; 
+  margin: 5px;
 }
 
 /****************************
@@ -171,7 +172,7 @@ footer {
   display: block;
   text-align: right;
   /*background-color: #FF614D;*/
-  color: #999; 
+  color: #999;
   padding: 10px 5px;
   border-top: 3px solid #F2DA2C;
 }
@@ -194,4 +195,3 @@ footer a:visited {
   font-size: .75em;
   color: #F2DA2C;
 }
-
